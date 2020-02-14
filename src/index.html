@@ -7,22 +7,34 @@
   </head>
   <body>
     <header>
-      <h1>El secreto del César</h1>
-      <p>Aquí tienes la mejor herramienta para asegurar la confidencialidad de tu información.</p>
-      <p>Con el cifrado César podrás codificar y decodificar textos para crear textos, mesajes y claves ultrasecretas.</p>
-      <button id="buttonStart">Start</button>
     </header>
-
+     
     <main>
-      <h2>Cifrado César Online</h2>
-      <p>Hola, aquí podrás cifrar o descifrar fácilmente.</p>
+      <h1 >El secreto del César</h1>
+      <p>Con el Cifrado César podrás codificar y decodificar textos, solo tienes que elegir un número de desplazamiento y podrás crear o leer mensajes ultrasecretos.</p>
+       
+            
+
+      <form>
+
+        <p>Ingresa texto</p>
+
+        <input type="number" id="offset" min="1">
+
+        <textarea name="text" id="textIngreso"></textarea>
+
+        <button type="button" id="bCode">Cifrar</button>
+        <button type="button" id="bDecode">Descifrar</button>
       
-      <p>Ingresa texto:</p>
-      <textarea name="text" id="text" autofocus></textarea>
-
-
+      
+        <textarea name="text" id="textResultado"></textarea> 
+        <button type="reset">Limpiar</button>
+  
+      </form>
+  
+  
     </main>
     <footer></footer>
-    <script src="index.js" type="module"></script>
+    <script src="index.js"></script>
   </body>
 </html>
