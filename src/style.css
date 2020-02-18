@@ -8,3 +8,9 @@
 .corpus{
         background: #dfe6e9;
 }
+header{
+        background: #ffcccc;
+        text-align-last: left;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+}
