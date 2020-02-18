@@ -15,21 +15,19 @@ buttonCode.addEventListener('click',() =>
   {
     let valueOffset = offset.value;
     let message = textIngreso.value;
-    let resultado = '';
     
     //for
     for (let i = 0; i < message.length; i++) {
       //Traigo la posición ascii de la letra ingresada en message - Coloco 0 para indicar la posición inicial del string, aquí aplicar for
     let codeAscii= message.charCodeAt(i);
-
-    // let encode = String.fromCharCode((palabra1.charCodeAt(i) - 65 + parseInt(offSetC))%26 +65);
-
-
-    //J -Aplico la fórmula de Cifrado César para el desplazamiento
+    //Aplico la fórmula de Cifrado César para el desplazamiento
     let cifrado = (codeAscii-65+parseInt(valueOffset))%26+65;
     textResultado.value += String.fromCharCode(cifrado);
-    resultado = resultado + cifrado;
     }
+
+    
+
+    
    
   });
 
@@ -45,7 +43,7 @@ buttonDecode.addEventListener('click', () =>
   let codeAscii= message.charCodeAt(i);
   let textDescifrado = textResultado.value;
   //Aplico la fórmula de Cifrado César para el desplazamiento
-  let descifrado = (codeAscii-65-parseInt(valueOffset))%26+65;
+  let descifrado = (codeAscii+65-parseInt(valueOffset))%26+65;
   textResultado.value += String.fromCharCode(descifrado);
 
     
