@@ -6,35 +6,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-    </header>
-     
-    <main>
-      <h1 >El secreto del César</h1>
-      <p>Con el Cifrado César podrás codificar y decodificar textos, solo tienes que elegir un número de desplazamiento y podrás crear o leer mensajes ultrasecretos.</p>
-       
+    <div class="corpus">
+        <header>
+            <h1 >Cifrado online</h1>
+            <p>Con el Cifrado César podrás codificar y decodificar textos, solo tienes que elegir un número de desplazamiento y podrás crear o leer mensajes ultrasecretos.</p>
+        </header>
+         
+        <main>
+          
+           
+          <form>
+    
+            <input type="number" id="offset" class= "offset" min="1" max="340">
+            <br>
+            <textarea name="text" id="textIngreso" class="textarea" placeholder="Ingresa texto a cifrar"></textarea>
+            <button type="button" id="bCode">Cifrar</button>
+            <button type="button" id="bDecode">Descifrar</button>
             
-
-      <form>
-
-        <p>Ingresa texto</p>
-
-        <input type="number" id="offset" min="1">
-
-        <textarea name="text" id="textIngreso"></textarea>
-
-        <button type="button" id="bCode">Cifrar</button>
-        <button type="button" id="bDecode">Descifrar</button>
+            <textarea name="text" id="textResultado" class="textarea"></textarea>
+            <br>
+            <button type="reset">Limpiar</button>
+      
+          </form>
       
       
-        <textarea name="text" id="textResultado"></textarea> 
-        <button type="reset">Limpiar</button>
-  
-      </form>
-  
-  
-    </main>
-    <footer></footer>
+        </main>
+        <footer></footer>
+
+    </div>
+    
     <script src="index.js"></script>
   </body>
 </html>

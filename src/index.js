@@ -11,43 +11,47 @@ let offset = document.getElementById("offset");
 
 
 //Creando evento al boton Cifrar
-buttonCode.addEventListener('click',() => {
-
-    
+buttonCode.addEventListener('click',() => 
+  {
     let valueOffset = offset.value;
     let message = textIngreso.value;
+    let resultado = '';
     
-    //Traigo la posición ascii de la letra ingresada en message - Coloco 0 para indicar la posición inicial del string, aquí aplicar for
-    let codeAscii= message.charCodeAt(0);
-    //Aplico la fórmula de Cifrado César para el desplazamiento
+    //for
+    for (let i = 0; i < message.length; i++) {
+      //Traigo la posición ascii de la letra ingresada en message - Coloco 0 para indicar la posición inicial del string, aquí aplicar for
+    let codeAscii= message.charCodeAt(i);
+
+    // let encode = String.fromCharCode((palabra1.charCodeAt(i) - 65 + parseInt(offSetC))%26 +65);
+
+
+    //J -Aplico la fórmula de Cifrado César para el desplazamiento
     let cifrado = (codeAscii-65+parseInt(valueOffset))%26+65;
-    textResultado.value = String.fromCharCode(cifrado);
-
-
-    
-      
-    
-    //formula
+    textResultado.value += String.fromCharCode(cifrado);
+    resultado = resultado + cifrado;
+    }
    
-    // let alphabet = "ABCD";
-    // let letterA = alphabet.charCodeAt(0);
-    // let letterB = alphabet.charCodeAt(1);
-
-
-
-    // console.log(letterA);
-    // let numberDisplace = (letterA - 65 + valueOffset)%26;
-    // console.log(numberDisplace);
-
-    // textResultado.value = numberDisplace;
-
-
-
-
-
-
-
-
   });
+
+//Creando evento al boton Descifrar
+buttonDecode.addEventListener('click', () => 
+  {
+    let valueOffset = offset.value;
+    let message = textIngreso.value;
+
+  //For
+  for (let i = 0; i < message.length; i++) {
+    //Traigo la posición ascii de la letra ingresada en message - Coloco 0 para indicar la posición inicial del string, aquí aplicar for
+  let codeAscii= message.charCodeAt(i);
+  let textDescifrado = textResultado.value;
+  //Aplico la fórmula de Cifrado César para el desplazamiento
+  let descifrado = (codeAscii-65-parseInt(valueOffset))%26+65;
+  textResultado.value += String.fromCharCode(descifrado);
+
+    
+  }
+
+
+});
 
 
