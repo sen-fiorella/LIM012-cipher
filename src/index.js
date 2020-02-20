@@ -24,17 +24,15 @@ buttonCode.addEventListener('click',() =>
       //Aplico la fórmula de Cifrado César para el desplazamiento
       let cifradoMayus = (codeAscii-65+parseInt(valueOffset))%26+65;
       textResultado.value += String.fromCharCode(cifradoMayus);
-
+      
       } else if(codeAscii >= 97 && codeAscii <= 122) {
         //Aplico la fórmula de Cifrado César para el desplazamiento
         let cifradoMinus = (codeAscii-97+parseInt(valueOffset))%26+97;
         textResultado.value += String.fromCharCode(cifradoMinus);
-      } else if(codeAscii === 32)
-      
-      {
-      textResultado.value += ' ';
-      }
-      
+      } else if(codeAscii >=32 && codeAscii<=64) {
+        let cifradoNumCar = (codeAscii-32+parseInt(valueOffset))%33+32;
+        textResultado.value += String.fromCharCode(cifradoNumCar);
+      }    
   }
     
    
@@ -57,12 +55,12 @@ buttonDecode.addEventListener('click', () =>
       }
       else if(codeAscii >= 97 && codeAscii <= 122) {
       //Aplico la fórmula de Cifrado César para el desplazamiento
-      let cifradoMinus = (codeAscii-122-parseInt(valueOffset))%26+122;
-      textResultado.value += String.fromCharCode(cifradoMinus);
+      let descifradoMinus = (codeAscii-122-parseInt(valueOffset))%26+122;
+      textResultado.value += String.fromCharCode(descifradoMinus);
       }
-      else if (codeAscii === 32)
-    {
-      textResultado.value += ' ';
+      else if (codeAscii >= 32 && codeAscii <=64) {
+      let descifradoNumCar = (codeAscii-64-parseInt(valueOffset))%33+64;
+      textResultado.value += String.fromCharCode(descifradoNumCar);
     }
     
   }
