@@ -1,5 +1,3 @@
-// import { encode } from "punycode";
-
 import cipher from './cipher.js';
 
 // console.log(cipher);

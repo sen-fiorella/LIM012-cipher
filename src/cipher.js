@@ -15,7 +15,10 @@ const cipher = {
       } else if(codeAscii >=32 && codeAscii<=64) {
         let cifradoNumCar = (codeAscii-32+parseInt(valueOffset))%33+32;
         textResultado.value += String.fromCharCode(cifradoNumCar);
-      }    
+      } else {
+        textResultado.value += message[i];
+
+      }
   }
   return textResultado.value
 },
@@ -40,7 +43,11 @@ const cipher = {
       else if (codeAscii >= 32 && codeAscii <=64) {
       let descifradoNumCar = (codeAscii-64-parseInt(valueOffset))%33+64;
       textResultado.value += String.fromCharCode(descifradoNumCar);
-    }
+      } else {
+        textResultado.value += message[i];
+
+      }
+
     
   }
 
