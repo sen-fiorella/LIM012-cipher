@@ -12,7 +12,7 @@ buttonCode.addEventListener('click',() =>
   {
     let valueOffset = offset.value;
     let message = textIngreso.value;
-    textResultado.value = cipher.encode(message,valueOffset);    
+    textResultado.value = cipher.encode(valueOffset,message);    
    
   });
 
@@ -21,7 +21,7 @@ buttonDecode.addEventListener('click', () =>
   {
     let valueOffset = offset.value;
     let message = textIngreso.value;
-    textResultado.value = cipher.decode(message,valueOffset);    
+    textResultado.value = cipher.decode(valueOffset,message);    
 });
 
 
