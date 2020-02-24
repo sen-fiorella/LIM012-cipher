@@ -1,16 +1,49 @@
-*{text-align: center;
-}
-.offset{width: 5%; 
-        margin: 1%;
-}
-.textarea{padding: 6%;
-}
-.corpus{
-        background: #dfe6e9;
-}
+
 header{
-        background: #ffcccc;
-        text-align-last: left;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align-last: center;
+        padding: 0%;  
+}
+
+h1{
+        font-family: 'Fredericka the Great';
+        color: #4f98ca;
+        /* background: #f1f9f9; */
+        font-size: 50px; 
+        margin: 0%;
+}
+
+main{   margin: 5px;
+        background-image: url(./assets/imagenes/secret-key.jpg);
+        background-repeat: space;
+        border: #7f8c8d;
+        text-align: center;
+}
+
+.offset{
+        height: 2em;
+        width: 55px;
+        margin: 1%;        
+}
+
+.botones{
+        align-self: center;
+        width: 90px;
+        height: 3em;
+        border-radius: 9px;
+        background-color: #f4dada;
+        font-size: 14px;
         
 }
+.textarea{     
+        height: 20em;
+        width: 350px;        
+        margin: 1%;
+        text-align: left;
+        padding: 1%;
+        border: #7f8c8d;
+        font-size: 15px;   
+}
+
+
+        
+

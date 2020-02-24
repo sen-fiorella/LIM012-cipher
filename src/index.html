@@ -4,38 +4,26 @@
     <meta charset="utf-8">
     <title>Diario Cifrado</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="corpus">
-        <header>
-          <p>Diario personal virtual</p> 
-        </header>
-         
-        <main>
-
-            <h1 >My secret diary</h1>
-            <cite>Aquí podrás crear un diario personal ultrasecreto, solo tienes que elegir un número de desplazamiento y podrás cifrar o descifrar tus notas.</cite>
-          
-           
-          <form>
-    
-            <input type="number" id="offset" class= "offset" min="1" max="100">
+    <div> 
+        <header>          
+          <h1 id="titulo">My Secret</h1>
+        </header>   
+        <main>                
+          <form>     
+            <input type="number" id="offset" class= "offset" min="1" placeholder="N°">
             <br>
-            <textarea name="text" id="textIngreso" class="textarea" placeholder="Ingresa texto a cifrar"></textarea>
-            <textarea name="text" id="textResultado" class="textarea"></textarea> <br>
-    
-            <button type="button" id="bCode">Cifrar</button>
-            <button type="button" id="bDecode">Descifrar</button>
-            <button type="reset">Limpiar</button>
-      
-          </form>
-      
-      
+            <textarea name="text" id="textIngreso" class="textarea" placeholder="Ingresa texto a cifrar o descifrar"></textarea>
+            <textarea name="text" id="textResultado" class="textarea"></textarea>
+            <br>
+            <button type="button" id="bCode" class="botones">Cifrar</button>
+            <button type="button" id="bDecode" class="botones">Descifrar</button>
+            <button type="reset" class="botones">Limpiar</button>
+          </form>  
         </main>
-        <footer></footer>
-
     </div>
-    
     <script src="index.js" type="module"></script>
   </body>
 </html>

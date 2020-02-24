@@ -44,7 +44,6 @@ const cipher = {
         mDescifrado += message[i];
       }
    }
-
   return mDescifrado
  }
 };
