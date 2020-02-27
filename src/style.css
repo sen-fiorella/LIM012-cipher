@@ -1,15 +1,23 @@
 
 header{
         text-align-last: center;
-        padding: 0%;  
+        padding: 0%;
+        margin: 2%;
 }
 
 h1{
         font-family: 'Fredericka the Great';
         color: #4f98ca;
-        /* background: #f1f9f9; */
         font-size: 50px; 
         margin: 0%;
+
+}        
+
+header, span{  
+        font-family: inherit;
+        color: #333333;        
+        font-size: 23px;
+              
 }
 
 main{   margin: 5px;
@@ -20,8 +28,9 @@ main{   margin: 5px;
 }
 
 .offset{
-        height: 2em;
-        width: 55px;
+        border: 1px solid #7f8c8d;
+        height: 2.5em;
+        width: 54px;
         margin: 1%;        
 }
 
@@ -40,9 +49,11 @@ main{   margin: 5px;
         margin: 1%;
         text-align: left;
         padding: 1%;
-        border: #7f8c8d;
+        border: 2px solid #7f8c8d;
         font-size: 15px;   
 }
+
+
 
 
         

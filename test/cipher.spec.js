@@ -96,5 +96,5 @@ describe('cipher', () => {
     it('debería retornar "ñá¡" para "ñá¡"', () => {
       expect(cipher.decode(33, 'ñá¡')).toBe('ñá¡');
     });
-  });
+  }); 
 });
