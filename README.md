@@ -19,7 +19,7 @@
 My Secret es una plataformar virtual que permite a los usuarios cifrar y descifrar textos mediante un sistema de encriptado de desplazamiento que es muy fácil de usar. 
 
 ## 2. Imagen final del proyecto
-![image](https://user-images.githubusercontent.com/60791638/75453263-a7bab980-5941-11ea-8805-6441df76e919.png)
+![image](https://user-images.githubusercontent.com/60791638/75454549-9672ac80-5943-11ea-861b-fabdaaf802f5.png)
 
 
 ## 3. Investigación UX: Los usuarios y los objetivos en relación con el producto
