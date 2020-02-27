@@ -28,29 +28,57 @@ main{   margin: 5px;
 }
 
 .offset{
-        border: 1px solid #7f8c8d;
+        border: 1px solid skyblue;
         height: 2.5em;
         width: 54px;
-        margin: 1%;        
+        margin: 1%;  
+        padding-left: 15px;  
+        border-radius: 15px;    
+}
+
+.offset:hover{
+        color:  #333333;   
+        background-color: skyblue;
+        font-weight: 600;
+
 }
 
 .botones{
-        align-self: center;
         width: 90px;
         height: 3em;
         border-radius: 9px;
         background-color: #f4dada;
         font-size: 14px;
+        outline: none;
         
 }
+
+#bDecode{
+        margin-right: 24%; 
+        margin-left: 15%;
+
+}
+
+
 .textarea{     
         height: 20em;
         width: 350px;        
         margin: 1%;
         text-align: left;
         padding: 1%;
-        border: 2px solid #7f8c8d;
-        font-size: 15px;   
+        outline: none;
+        border: 1px solid skyblue;
+        border-radius: 5%;
+
+        font-size: 15px;  
+        
+        
+}
+
+.textarea:hover{
+        box-shadow: 0 0.25rem 1rem rgb(82, 224, 194);
+
+
 }
 
 

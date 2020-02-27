@@ -19,7 +19,7 @@
 My Secret es una plataformar virtual que permite a los usuarios cifrar y descifrar textos mediante un sistema de encriptado de desplazamiento que es muy fácil de usar. 
 
 ## 2. Imagen final del proyecto
-![image](https://user-images.githubusercontent.com/60791638/75128399-e7f41080-5691-11ea-8485-760b4763475f.png)
+![image](https://user-images.githubusercontent.com/60791638/75453263-a7bab980-5941-11ea-8805-6441df76e919.png)
 
 
 ## 3. Investigación UX: Los usuarios y los objetivos en relación con el producto
@@ -93,7 +93,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 ### HTML y CSS
 * [ ] [Uso correcto de HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
 * [x] [Uso de selectores de CSS](https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS)
-* [ ] [Construir tu aplicación respetando el diseño realizado](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/css/01-css/02-boxmodel-and-display) (maquetación).
+* [x] [Construir tu aplicación respetando el diseño realizado](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/css/01-css/02-boxmodel-and-display) (maquetación).
 ### DOM
 * [x] [Uso de selectores de nodos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/03-1-dom-methods-selection)
 * [ ] [Manejo de eventos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/04-events)
