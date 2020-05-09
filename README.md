@@ -5,7 +5,7 @@
 ## Índice
  
 * [1. Resumen del proyecto](#1-resumen-del-proyecto)
-+ [2. Imagen final del proyecto](#2-imagen-final-del-proyecto)
+* [2. Imagen final del proyecto](#2-imagen-final-del-proyecto)
 * [3. Investigación UX](#3-investigacion-ux)
 * [4. Imagen del primer prototipo en papel](#4-imagen-del-primer-prototipo-en-papel)
 * [5. Resumen del primer feedback](#5-resumen-del-primer-feedback)
